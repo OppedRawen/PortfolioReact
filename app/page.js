@@ -5,6 +5,11 @@ import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
 export default function Home() {
   return (
     
@@ -62,6 +67,43 @@ export default function Home() {
           <h4>
             design tools I use
           </h4>
+        </div>
+      </div>
+      <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+        <div>
+          <Image src={code} width={100} height={100}/>
+          <h3 className=' text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+          <p className='py-2'>
+            Design for the products
+          </p>
+          <h4>
+            design tools I use
+          </h4>
+        </div>
+      </div>
+      <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+        <div>
+          <Image src={consulting} width={100} height={100}/>
+          <h3 className=' text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+          <p className='py-2'>
+            Design for the products
+          </p>
+          <h4>
+            design tools I use
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    {/* section */}
+    <section>
+      <div>
+        <h3 className='text-3xl py-1'>Portfolio</h3>
+        <p>blah blah blah blah blah blah</p>
+      </div>
+      <div>
+        <div>
+          <Image src={web1}/>
         </div>
       </div>
     </section>
